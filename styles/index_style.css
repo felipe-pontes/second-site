@@ -1,0 +1,110 @@
+main {
+  margin-top: 25px;
+}
+
+section {
+  margin-top: 25px;
+}
+
+.top {
+  margin-top: 0;
+}
+
+.top h1 {
+  color: black;
+  font-size: 40px;
+  letter-spacing: 3px;
+  word-spacing: 6px;
+}
+
+.top p {
+  text-align: center;
+  text-indent: 5px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  color: rgb(70, 60, 60);
+}
+
+.cards {
+  position: static;
+  margin-top: 30px;
+  width: 100%;
+  display: inline-block;
+}
+
+.cards img {
+  height: 100%;
+  width: 100%;
+}
+
+.cards h3 {
+  color: #054764ff;
+  font-size: 25px;
+  letter-spacing: 4px;
+  margin-bottom: 5px;
+  word-spacing: 6px;
+}
+
+.cards p {
+  color: rgb(70, 60, 60);
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.card1 {
+  position: absolute;
+  width: 32%;
+  left: 1%;
+}
+
+.card2 {
+  position: absolute;
+  left: 34%;
+  width: 32%;
+}
+
+.card3 {
+  position: relative;
+  left: 67%;
+  width: 32%;
+}
+
+.bluecard {
+  height: 500px;
+  width: 100%;
+  position: static;
+  background-color: #003d52;
+  background-image: url(../images/index_img/bg_detail.png);
+  background-position: bottom right;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  padding-top: 15px;
+  padding-left: 50px;
+  padding-right: 33%;
+  padding-bottom: 1px;
+}
+
+.bluecard h1 {
+  margin-top: 40px;
+  text-align: left;
+  color: white;
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.bluecard p {
+  margin-top: 0;
+  color: white;
+  font-size: 15px;
+  padding-right: 10%;
+  text-align: left;
+}
+
+.call h1 {
+  color: #003d52;
+  font-size: 40px;
+  width: 100%;
+  text-transform: uppercase;
+}
